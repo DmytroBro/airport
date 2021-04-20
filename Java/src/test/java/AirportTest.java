@@ -82,7 +82,7 @@ public class AirportTest {
             if ((militaryPlane.getType() == MilitaryType.BOMBER)) {
                 flag = true;
             }
-            Assert.assertTrue(flag, "It is no bombers on the plane");
+            Assert.assertEquals(flag, true);
         }
     }
 
